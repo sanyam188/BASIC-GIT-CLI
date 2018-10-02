@@ -1,0 +1,58 @@
+                        BASIC GIT CLI TOOLS
+
+
+#tell git who you are
+	git config --global user.name "no-one-21"
+	git config --global user.email "rohitjadaun3@gmail.com"
+
+
+#create a local repo
+	git init
+
+
+# checkout a repo for a remote server use or to clone a repo :
+	git clone <url> <folername where u want to save it>
+
+
+#adding files in staging area
+	git add <filename> (particular file is added)
+	git add * (all untracked files are added)
+
+
+#removing files from staging area
+	git reset
+
+
+#commiting files to head 
+	git commit -m "commit message"
+
+
+#to send changes to branch master
+	git push origin master
+
+
+#list the files u have changed
+	git status
+
+
+#branch features:
+	git branch (list all the branches associated with repo)
+	git checkout -b <branchname>  (creates a new branch and switchs to it)
+	git checkout <branchname> (switches b/w one branch to other)
+	git branch -d <branchname>   (deletes the features of that branch)
+	git push <branchname>
+
+
+#If you mess up, you can replace the changes in your working tree with the last content in head:
+Changes already added to the index, as well as new files, will be kept
+	 git checkout --<filename>
+
+
+#view all merge conflicts
+	git diff
+
+
+#preview sources before merging
+	git diff <sourcebranch> <targetbranch>
+
+
