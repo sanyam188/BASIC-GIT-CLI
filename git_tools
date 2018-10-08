@@ -38,6 +38,7 @@
 #branch features:
 	git branch (list all the branches associated with repo)
 	git checkout -b <branchname>  (creates a new branch and switchs to it)
+	git checkout -- <filename> (To remove changes in that file i.e takes you back to recent original state)
 	git checkout <branchname> (switches b/w one branch to other)
 	git branch -d <branchname>   (deletes the features of that branch)
 	git push <branchname>
