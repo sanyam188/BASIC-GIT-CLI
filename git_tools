@@ -57,3 +57,4 @@ Changes already added to the index, as well as new files, will be kept
 	git diff <sourcebranch> <targetbranch>
 
 
+$ git add my-file.ts another-file.js new_file.rb
