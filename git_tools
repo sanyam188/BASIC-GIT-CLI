@@ -56,4 +56,6 @@ Changes already added to the index, as well as new files, will be kept
 #preview sources before merging
 	git diff <sourcebranch> <targetbranch>
 
+#git pull command
+	git pull origin master
 
